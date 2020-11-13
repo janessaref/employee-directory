@@ -1,13 +1,13 @@
 import React from "react";
 import "./style.css";
 import TableHeader from "../TableHeader";
-import TableRow from "../TableRow";
+import TableBody from "../TableBody";
 
 function Table() {
   return (
-    <table className="table table-responsive table-hover table-dark">
+    <table className="table table-hover table-striped table-dark">
         <TableHeader />
-        <TableRow />
+        <TableBody />
     </table>
     );
 };

@@ -4,7 +4,7 @@ import Table from "../Table";
 
 function Container() {
   return (
-    <div className="container">
+    <div className="container table-responsive">
        <Table />
     </div>
     );

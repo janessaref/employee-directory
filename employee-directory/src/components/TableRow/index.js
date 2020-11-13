@@ -1,14 +1,15 @@
 import React from "react";
-import TableData from "../TableData";
 import "./style.css";
 
 function TableRow() {
   return (
-    <tbody>
     <tr>
-      <TableData />
+      <td>Mark</td> 
+      <td>Otto</td>
+      <td>@mdo</td>
+      <td>@mdo</td>
+      <td>@mdo</td>
     </tr>
-  </tbody>
     );
 };
 
