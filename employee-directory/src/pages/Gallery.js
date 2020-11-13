@@ -8,21 +8,16 @@ function Gallery() {
     // const [employee, setEmployee] = useState({});
 
     useEffect(() => {
-        loadEmployees();
+        // loadEmployees();
     });
 
     function loadEmployees() {
         API.getEmployeesList()
-        // .then(
-            
-    //         names => {
-    //         API.getEmployeesByName(names[0])
-    //     .then((employees) => {
-    //         setEmployees(employees);
-    //         setEmployee(employees[0]);
-    //     });
-    // })
-        // .catch(err => console.log(err));
+        .then((employees) => {
+            setEmployees(employees);
+            setEmployees(employees[0]);
+        })
+        .catch(err => console.log(err));
   };
 
   return (
