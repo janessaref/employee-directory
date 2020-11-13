@@ -7,7 +7,7 @@ function Search() {
         <form>
             <div className="form-group text-center">
                 <label for="formGroupExampleInput">Search</label>
-                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Search"/>
+                <input type="text" className="form-control" id="formGroupExampleInput" placeholder="Search"/>
             </div>
         </form>
     </div>
