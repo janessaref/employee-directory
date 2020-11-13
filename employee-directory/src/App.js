@@ -1,9 +1,9 @@
 // import logo from './logo.svg';
-// import './App.css';
+import './App.css';
 import React from "react";
 import Gallery from "./pages/Gallery";
 import Header from "./components/Header";
-import Footer from "./components/Footer";
+// import Footer from "./components/Footer";
 import Search from "./components/Search";
 import Container from "./components/Container";
 // import TableHeader from "./components/TableHeader";
@@ -16,7 +16,7 @@ function App() {
       <Search />
       <Container />
       <Gallery />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
