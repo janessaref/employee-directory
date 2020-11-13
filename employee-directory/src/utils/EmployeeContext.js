@@ -5,6 +5,8 @@ const EmployeeContext = React.createContext({
     lastname: "",
     email: "",
     image: "",
+    phone: "",
+    dob: ""
 });
   
   export default EmployeeContext;

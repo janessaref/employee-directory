@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import API from "../utils/API";
+import EmployeeContext from "../utils/EmployeeContext";
+import Container from "../components/Container";
 // import Table from "../components/Table";
 // import TableRow from "../components/TableRow";
 
@@ -21,13 +23,11 @@ function Gallery() {
   };
 
   return (
-    // <EmployeeContext.Provider value={{ employees }}>
+    <EmployeeContext.Provider value={{ employees }}>
       <div>
-        {/* <Row> */}
-          {/* <CardContainer /> */}
-        {/* </Row> */}
+          <Container />
       </div>
-    // </EmployeeContext.Provider>
+    </EmployeeContext.Provider>
   );
 };
 
