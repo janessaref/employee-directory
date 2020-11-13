@@ -1,0 +1,290 @@
+{
+    "results": [
+    {
+    "gender": "male",
+    "name": {
+    "title": "Mr",
+    "first": "Frederick",
+    "last": "Curtis"
+    },
+    "email": "frederick.curtis@example.com",
+    "dob": {
+    "date": "1949-04-11T20:04:39.121Z",
+    "age": 71
+    },
+    "phone": "08-6912-1700"
+    },
+    {
+    "gender": "female",
+    "name": {
+    "title": "Mrs",
+    "first": "Hanaé",
+    "last": "Sanchez"
+    },
+    "email": "hanae.sanchez@example.com",
+    "dob": {
+    "date": "1953-07-14T11:20:06.217Z",
+    "age": 67
+    },
+    "phone": "05-42-98-88-89"
+    },
+    {
+    "gender": "male",
+    "name": {
+    "title": "Mr",
+    "first": "Enzo",
+    "last": "Duval"
+    },
+    "email": "enzo.duval@example.com",
+    "dob": {
+    "date": "1988-06-25T04:46:55.587Z",
+    "age": 32
+    },
+    "phone": "03-56-17-15-70"
+    },
+    {
+    "gender": "male",
+    "name": {
+    "title": "Mr",
+    "first": "Bill",
+    "last": "Rodriquez"
+    },
+    "email": "bill.rodriquez@example.com",
+    "dob": {
+    "date": "1977-02-06T07:18:27.194Z",
+    "age": 43
+    },
+    "phone": "09-3227-6951"
+    },
+    {
+    "gender": "male",
+    "name": {
+    "title": "Mr",
+    "first": "Otto",
+    "last": "Erkkila"
+    },
+    "email": "otto.erkkila@example.com",
+    "dob": {
+    "date": "1958-06-05T14:58:13.817Z",
+    "age": 62
+    },
+    "phone": "07-895-285"
+    },
+    {
+    "gender": "male",
+    "name": {
+    "title": "Mr",
+    "first": "Warren",
+    "last": "Robinson"
+    },
+    "email": "warren.robinson@example.com",
+    "dob": {
+    "date": "1982-05-04T01:10:37.081Z",
+    "age": 38
+    },
+    "phone": "06-4254-0954"
+    },
+    {
+    "gender": "male",
+    "name": {
+    "title": "Monsieur",
+    "first": "Luca",
+    "last": "Robin"
+    },
+    "email": "luca.robin@example.com",
+    "dob": {
+    "date": "1987-10-02T00:35:33.884Z",
+    "age": 33
+    },
+    "phone": "075 622 49 78"
+    },
+    {
+    "gender": "female",
+    "name": {
+    "title": "Miss",
+    "first": "Nerea",
+    "last": "Vega"
+    },
+    "email": "nerea.vega@example.com",
+    "dob": {
+    "date": "1970-09-29T02:24:30.099Z",
+    "age": 50
+    },
+    "phone": "993-928-604"
+    },
+    {
+    "gender": "female",
+    "name": {
+    "title": "Miss",
+    "first": "Hillechien",
+    "last": "Amin"
+    },
+    "email": "hillechien.amin@example.com",
+    "dob": {
+    "date": "1995-06-12T01:39:08.413Z",
+    "age": 25
+    },
+    "phone": "(094)-843-2321"
+    },
+    {
+    "gender": "female",
+    "name": {
+    "title": "Ms",
+    "first": "Suzanne",
+    "last": "Howell"
+    },
+    "email": "suzanne.howell@example.com",
+    "dob": {
+    "date": "1970-02-10T17:53:52.668Z",
+    "age": 50
+    },
+    "phone": "00-9371-5105"
+    },
+    {
+    "gender": "male",
+    "name": {
+    "title": "Mr",
+    "first": "Lenni",
+    "last": "Kangas"
+    },
+    "email": "lenni.kangas@example.com",
+    "dob": {
+    "date": "1963-05-20T01:53:24.907Z",
+    "age": 57
+    },
+    "phone": "04-054-499"
+    },
+    {
+    "gender": "female",
+    "name": {
+    "title": "Ms",
+    "first": "Naomi",
+    "last": "Davies"
+    },
+    "email": "naomi.davies@example.com",
+    "dob": {
+    "date": "1973-03-09T11:22:15.653Z",
+    "age": 47
+    },
+    "phone": "(648)-479-9042"
+    },
+    {
+    "gender": "male",
+    "name": {
+    "title": "Mr",
+    "first": "Randall",
+    "last": "Nichols"
+    },
+    "email": "randall.nichols@example.com",
+    "dob": {
+    "date": "1991-06-15T10:42:56.890Z",
+    "age": 29
+    },
+    "phone": "015242 73413"
+    },
+    {
+    "gender": "female",
+    "name": {
+    "title": "Miss",
+    "first": "Janet",
+    "last": "Morgan"
+    },
+    "email": "janet.morgan@example.com",
+    "dob": {
+    "date": "1985-08-25T20:44:26.667Z",
+    "age": 35
+    },
+    "phone": "061-157-1922"
+    },
+    {
+    "gender": "male",
+    "name": {
+    "title": "Mr",
+    "first": "Marco",
+    "last": "Ramos"
+    },
+    "email": "marco.ramos@example.com",
+    "dob": {
+    "date": "1950-02-19T21:52:56.910Z",
+    "age": 70
+    },
+    "phone": "928-658-276"
+    },
+    {
+    "gender": "female",
+    "name": {
+    "title": "Ms",
+    "first": "Charlotte",
+    "last": "Park"
+    },
+    "email": "charlotte.park@example.com",
+    "dob": {
+    "date": "1955-10-06T19:21:01.291Z",
+    "age": 65
+    },
+    "phone": "617-725-0712"
+    },
+    {
+    "gender": "male",
+    "name": {
+    "title": "Mr",
+    "first": "Kadir",
+    "last": "Dağdaş"
+    },
+    "email": "kadir.dagdas@example.com",
+    "dob": {
+    "date": "1965-04-20T05:02:53.667Z",
+    "age": 55
+    },
+    "phone": "(322)-380-5838"
+    },
+    {
+    "gender": "female",
+    "name": {
+    "title": "Mrs",
+    "first": "Sevim",
+    "last": "Hohl"
+    },
+    "email": "sevim.hohl@example.com",
+    "dob": {
+    "date": "1968-04-11T11:28:10.570Z",
+    "age": 52
+    },
+    "phone": "0321-8603614"
+    },
+    {
+    "gender": "female",
+    "name": {
+    "title": "Mrs",
+    "first": "Alexis",
+    "last": "Gauthier"
+    },
+    "email": "alexis.gauthier@example.com",
+    "dob": {
+    "date": "1994-02-15T21:38:52.159Z",
+    "age": 26
+    },
+    "phone": "573-446-7182"
+    },
+    {
+    "gender": "female",
+    "name": {
+    "title": "Ms",
+    "first": "Nalan",
+    "last": "Baturalp"
+    },
+    "email": "nalan.baturalp@example.com",
+    "dob": {
+    "date": "1972-02-22T21:02:37.426Z",
+    "age": 48
+    },
+    "phone": "(568)-360-9011"
+    }
+    ],
+    "info": {
+    "seed": "26857ac42a496dd1",
+    "results": 20,
+    "page": 1,
+    "version": "1.3"
+    }
+    }
