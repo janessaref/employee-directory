@@ -1,21 +1,25 @@
 import React from "react";
-// import EmployeeContext from "../../utils/EmployeeContext";
 import "./style.css";
 
+// This is creating each row for each employee with all their data
 function TableRow({image, firstName, lastName, email, phone, dob}) {
-    // const { store, dispatch } = useContext(EmployeeContext);
-    // console.log({table: store})
   return (
     <tr>
-        <td><img src={image}></img></td>
+        <td>
+            <img src={image} alt={firstName}></img>
+        </td>
         <td>{firstName} {lastName}</td>
-        <td>{email}</td>
-        <td>{phone}</td>
+        <td>
+            <a className="employeeEmail" href={`mailto:${email}`}>{email}
+            </a>
+        </td>
+        <td>
+            <a className="employeePhone" href={`tel:${phone}`}>{phone}
+            </a>
+        </td>
         <td>{dob}</td>
     </tr>
     );
 };
 
 export default TableRow;
-
-// Image, Name, Phone, Email, DOB

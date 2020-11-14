@@ -1,0 +1,9 @@
+.employeeEmail,
+.employeePhone {
+    color: white;
+}
+
+.employeeEmail:hover,
+.employeePhone:hover {
+    color: orange;
+}

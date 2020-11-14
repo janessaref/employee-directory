@@ -1,9 +1,11 @@
-import TableRow from "../TableRow";
-import "./style.css";
 import React, { useContext } from "react";
 import EmployeeContext from "../../utils/EmployeeContext";
+import TableRow from "../TableRow";
+import "./style.css";
 
+// Table Body component that is wrapped around the table rows for each employee
 function TableBody() {
+    // importing store to grab employee data and mapping through each employee to display their information
     const { store } = useContext(EmployeeContext);
   return (
     <tbody>

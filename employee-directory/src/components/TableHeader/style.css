@@ -1,0 +1,18 @@
+.ascend,
+.descend {
+    border-radius: 5px;
+    padding: 4px;
+    padding-bottom: 0;
+    padding-top: 0;
+    margin-left: 15px;
+}
+
+.employeeName {
+    margin-top: 10px;
+    margin-bottom: 0;
+    margin-right: 200px;
+}
+
+.tableHeader {
+    padding: 5px;
+}
