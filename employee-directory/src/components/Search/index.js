@@ -4,7 +4,7 @@ import "./style.css";
 
 function Search() {
     const { dispatch } = useContext(EmployeeContext);
-    const [search, setSearch] = useState('') 
+    const [search, setSearch] = useState('');
   return (
     <div className="container">
         <form>

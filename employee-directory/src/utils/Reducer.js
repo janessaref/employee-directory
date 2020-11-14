@@ -11,11 +11,15 @@ export const reducer = (state, action) => {
                 })
             };
         case "sort":
+            // const employee = state.employees.sort((a,b) => (a.firstname > b.firstname ? 1: -1))
+
+            // console.log(employee)
             return {
                 ...state,
                 selectedEmployees:
-                state.employees.sort()
-            }
+                state.employees.sort((a,b) => (a.firstname > b.firstname ? 1: -1))
+            };
+           
         
         case "loading":
             return {

@@ -15,7 +15,7 @@ function TableBody() {
                 lastName={employee.lastname}
                 email={employee.email}
                 phone={employee.phone}
-                dob={employee.dob}
+                dob={new Date(employee.dob).toLocaleDateString()}
             />
         )}
     </tbody>

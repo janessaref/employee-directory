@@ -11,11 +11,6 @@ function Gallery() {
     const [employees, setEmployees] = useState([]);
     // const [employee, setEmployee] = useState({});
   
-
-    // function handleSubmit(e) {
-    //     e.preventDefault();
-        
-    //   }
     useEffect(() => {
         loadEmployees();
     },[]);
