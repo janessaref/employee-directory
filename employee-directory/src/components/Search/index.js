@@ -1,4 +1,4 @@
-import React, { useContext, useState, useEffect } from "react";
+import React, { useContext, useState } from "react";
 import EmployeeContext from "../../utils/EmployeeContext";
 import { SEARCH_EMPLOYEES, CLEAR_SEARCH } from "../../utils/Variables"
 import "./style.css";
@@ -7,7 +7,14 @@ import "./style.css";
 function Search() {
     const { dispatch } = useContext(EmployeeContext);
     const [search, setSearch] = useState('');
-    // useEffect
+    function searchEmployees(e)  {
+        e.preventDefault();
+        dispatch({type: SEARCH_EMPLOYEES, payload: search});
+    }
+    function clearSearch(e)  {
+        e.preventDefault();
+        dispatch({type: CLEAR_SEARCH});
+    }
 
   return (
     <div className="container">
@@ -24,12 +31,12 @@ function Search() {
                 />
                 <button 
                     className="btn btn-dark mr-2 mt-3" 
-                    onClick={() => dispatch({type: SEARCH_EMPLOYEES, payload: search})}>
+                    onClick={searchEmployees}>
                         Search
                 </button>
                 <button 
                     className="btn btn-dark ml-2 mt-3" 
-                    onClick={() => dispatch({type: CLEAR_SEARCH})}>
+                    onClick={clearSearch}>
                         Clear Search
                 </button>
             </div>
