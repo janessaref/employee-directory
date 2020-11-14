@@ -9,7 +9,6 @@ function Gallery() {
     const { store, dispatch } = useContext(EmployeeContext);
 
     const [employees, setEmployees] = useState([]);
-    // const [employee, setEmployee] = useState({});
   
     useEffect(() => {
         loadEmployees();
@@ -18,16 +17,11 @@ function Gallery() {
     function loadEmployees() {
         API.getEmployeesList()
             .then(employees => {
-                // event.preventDefault();  
                 setEmployees(employees);
-                dispatch({type: "loading", payload: employees})
-                // setEmployee(employees[0]);
+                dispatch({type: "loading", payload: employees});
             })
             .catch(err => console.log(err));
   };
-
-//   console.log(employees)
-//   console.log(employee)
 
   return (
       <div>

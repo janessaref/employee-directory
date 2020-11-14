@@ -2,7 +2,7 @@
 
 In this project, I've created an employee directory application using React. I've broken the application down into components, managed the state of the components and respond to the user's events. In this application, I've utilized an API with random employee information and utilized an axios call to grab the results I wanted to display on my employee table. In this application, the user can use the search field to find and filter employees by name or could also click on the name header to sort the employees in ascending or descending order. 
 
-I am still adjusting on how to use React. This was especially a challenging assignment for me since I am not used to the way to manage component states. While making this application, I've slowly but not fully come to understand how things work 
+I am still adjusting on how to use React. This was especially a challenging assignment for me since I am not used to the way to manage component states. While making this application, I've slowly but not fully come to understand how things work. I definitely want to practice more on this and get used to the structure. I have been struggling on this topic but I've had small wins in writing out the code. 
 
 ## Table of Contents
 

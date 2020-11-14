@@ -8,7 +8,10 @@ function TableHeader() {
     <thead>
         <tr>
         <th scope="col">Image</th>
-        <th scope="col"><button className="btn btn-dark" onClick={() => dispatch({type: "sort", payload: "name"})}>Name</button></th>
+        <th scope="col">Name
+        <button className="btn btn-dark" onClick={() => dispatch({type: "ascend", payload: "name"})}>^</button>
+        <button className="btn btn-dark" onClick={() => dispatch({type: "descend", payload: "name"})}>Down</button>
+        </th>
         <th scope="col">Email</th>
         <th scope="col">Phone Number</th>
         <th scope="col">Date of Birth</th>

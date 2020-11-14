@@ -10,7 +10,7 @@ export const reducer = (state, action) => {
                     return name.toLowerCase().includes(action.payload.toLowerCase());
                 })
             };
-        case "sort":
+        case "ascend":
             // const employee = state.employees.sort((a,b) => (a.firstname > b.firstname ? 1: -1))
 
             // console.log(employee)
@@ -18,6 +18,13 @@ export const reducer = (state, action) => {
                 ...state,
                 selectedEmployees:
                 state.employees.sort((a,b) => (a.firstname > b.firstname ? 1: -1))
+            };
+            case "descend":
+
+            return {
+                ...state,
+                selectedEmployees:
+                state.employees.sort((a,b) => (b.firstname > a.firstname ? 1: -1))
             };
            
         
