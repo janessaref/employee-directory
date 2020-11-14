@@ -7,16 +7,17 @@ function TableBody() {
     const { store } = useContext(EmployeeContext);
   return (
     <tbody>
-        {store.selectedEmployees.map(employee => 
-        <TableRow 
-        key={employee.name} 
-        image={employee.picture}
-        firstName={employee.firstname}
-        lastName={employee.lastname}
-        email={employee.email}
-        phone={employee.phone}
-        dob={employee.dob}
-        />)}
+        {store.selectedEmployees.map((employee, i) => 
+            <TableRow 
+                key={i} 
+                image={employee.picture}
+                firstName={employee.firstname}
+                lastName={employee.lastname}
+                email={employee.email}
+                phone={employee.phone}
+                dob={employee.dob}
+            />
+        )}
     </tbody>
     );
 };
