@@ -2,7 +2,7 @@ import axios from "axios";
 
  export default {
     getEmployeesList: function() {
-        // e.preventDefault();
+        
                 return new Promise((resolve, reject) => {
             axios.get("https://randomuser.me/api/?inc=gender,name,email,picture,dob,phone&results=3&nat=us").then((res) => {
                 const employees = res.data.results;

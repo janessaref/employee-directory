@@ -2,14 +2,23 @@
 export const reducer = (state, action) => {
     switch (action.type) {
         case "search":
-            return {
-                ...state,
-                selectedEmployees: 
-                    state.employees.filter(employee => {
-                    const name = employee.firstname + " " + employee.lastname;
-                    return name.toLowerCase().includes(action.payload.toLowerCase());
-                })
+            if(action.payload === "") {
+                return {
+                    ...state,
+                    selectedEmployees: 
+                        state.employees}
+            } else if(action.payload !== "") {
+                return {
+                    ...state,
+                    selectedEmployees: 
+                        state.employees.filter(employee => {
+                        const name = employee.firstname + " " + employee.lastname;
+                        return name.toLowerCase().includes(action.payload.toLowerCase());
+                    })
+                };
             };
+            break;
+            
         case "ascend":
             return {
                 ...state,

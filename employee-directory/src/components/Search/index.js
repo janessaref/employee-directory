@@ -1,19 +1,26 @@
-import React, { useContext, useState } from "react";
+import React, { useContext, useState, useEffect } from "react";
 import EmployeeContext from "../../utils/EmployeeContext";
-import { SEARCH_EMPLOYEES, CLEAR_SEARCH } from "../../utils/Variables"
+import { SEARCH_EMPLOYEES, CLEAR_SEARCH} from "../../utils/Variables"
 import "./style.css";
 
 // User search input function
 function Search() {
     const { dispatch } = useContext(EmployeeContext);
     const [search, setSearch] = useState('');
+
+    useEffect(() => {
+            dispatch({type: SEARCH_EMPLOYEES, payload: search});
+    }, [search])
+
     function searchEmployees(e)  {
         e.preventDefault();
         dispatch({type: SEARCH_EMPLOYEES, payload: search});
+        setSearch(search);
     }
     function clearSearch(e)  {
         e.preventDefault();
         dispatch({type: CLEAR_SEARCH});
+        setSearch("");
     }
 
   return (
