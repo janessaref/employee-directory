@@ -1,12 +1,13 @@
-import React, { useEffect, useState, useContext } from "react";
+import React, { useEffect, useContext } from "react";
 import API from "../utils/API";
 import EmployeeContext from "../utils/EmployeeContext";
 import Container from "../components/Container";
+import { ALL_EMPLOYEES } from "../utils/Variables";
 
 function Gallery() {
-    const { store, dispatch } = useContext(EmployeeContext);
+    const { dispatch } = useContext(EmployeeContext);
 
-    const [employees, setEmployees] = useState([]);
+    // const [employees, setEmployees] = useState([]);
   
     useEffect(() => {
         loadEmployees();
@@ -15,8 +16,8 @@ function Gallery() {
     function loadEmployees() {
         API.getEmployeesList()
             .then(employees => {
-                setEmployees(employees);
-                dispatch({type: "loading", payload: employees});
+                // setEmployees(employees);
+                dispatch({type: ALL_EMPLOYEES, payload: employees});
             })
             .catch(err => console.log(err));
   };

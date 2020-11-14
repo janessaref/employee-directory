@@ -1,7 +1,6 @@
 import React, { useContext } from "react";
 import EmployeeContext from "../../utils/EmployeeContext";
 import TableRow from "../TableRow";
-import "./style.css";
 
 // Table Body component that is wrapped around the table rows for each employee
 function TableBody() {
