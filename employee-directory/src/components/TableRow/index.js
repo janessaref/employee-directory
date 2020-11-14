@@ -3,22 +3,16 @@ import EmployeeContext from "../../utils/EmployeeContext";
 import "./style.css";
 
 function TableRow() {
-    const { employees } = useContext(EmployeeContext);
-    console.log(useContext(EmployeeContext))
-    console.log({employees})
+    const { store, dispatch } = useContext(EmployeeContext);
+    console.log({table: store})
   return (
     <tr>
-    {/* <td>{employee.firstname} {employee.lastname}</td> 
-      <td>{employee.email}</td>
-      <td>{employee.picture}</td>
-      <td>{employee.phone}</td> */}
-      {/* <td>{employees.dob}</td> */}
-
-      <td>name1</td>
-      <td>name1</td>
-      <td>name1</td>
-      <td>name1</td>
-      <td>name1</td>
+        <td><img src={store.employees[0].picture}></img></td>
+        <td>{store.employees[0].firstname}</td>
+        <td>{store.employees[0].lastname}</td>
+        <td>{store.employees[0].email}</td>
+        <td>{store.employees[0].phone}</td>
+        <td>{store.employees[0].dob}</td>
     </tr>
     );
 };

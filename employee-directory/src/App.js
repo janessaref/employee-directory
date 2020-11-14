@@ -5,7 +5,7 @@ import Gallery from "./pages/Gallery";
 import Header from "./components/Header";
 // import Footer from "./components/Footer";
 import Search from "./components/Search";
-import Container from "./components/Container";
+// import Container from "./components/Container";
 import EmployeeContext from './utils/EmployeeContext';
 import { reducer } from "./utils/Reducer";
 // import TableHeader from "./components/TableHeader";
@@ -25,7 +25,6 @@ function App() {
       <EmployeeContext.Provider value={{store, dispatch}}>
         <Header />
       <Search />
-      <Container />
       <Gallery />
       {/* <Footer /> */}
       </EmployeeContext.Provider>
