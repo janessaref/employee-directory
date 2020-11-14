@@ -35,11 +35,9 @@ function Gallery() {
 //   console.log(employee)
 
   return (
-    // <EmployeeContext.Provider value={{ employees }}>
       <div>
           <Container />
       </div>
-    // </EmployeeContext.Provider>
   );
 };
 

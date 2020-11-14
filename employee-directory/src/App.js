@@ -3,7 +3,6 @@ import './App.css';
 import React, { useReducer } from "react";
 import Gallery from "./pages/Gallery";
 import Header from "./components/Header";
-// import Footer from "./components/Footer";
 import Search from "./components/Search";
 // import Container from "./components/Container";
 import EmployeeContext from './utils/EmployeeContext';
@@ -26,7 +25,6 @@ function App() {
         <Header />
       <Search />
       <Gallery />
-      {/* <Footer /> */}
       </EmployeeContext.Provider>
      
     </div>
