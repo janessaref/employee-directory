@@ -8,7 +8,6 @@ function TableBody() {
   return (
     <tbody>
         {store.selectedEmployees.map(employee => <TableRow key={employee.name} td={employee}/>)}
-        {/* <TableRow /> */}
     </tbody>
     );
 };
