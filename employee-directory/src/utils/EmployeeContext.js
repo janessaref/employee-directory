@@ -4,7 +4,7 @@ const EmployeeContext = React.createContext({
     firstname: "",
     lastname: "",
     email: "",
-    image: "",
+    picture: "",
     phone: "",
     dob: ""
 });

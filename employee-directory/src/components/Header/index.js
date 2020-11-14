@@ -1,7 +1,10 @@
-import React from "react";
 import "./style.css";
+import React, { useContext } from "react";
+import EmployeeContext from "../../utils/EmployeeContext";
 
 function Header() {
+    const { store, dispatch } = useContext(EmployeeContext);
+    console.log({header: store})
   return (
     <div className="jumbotron jumbotron-fluid">
   <div className="container">
