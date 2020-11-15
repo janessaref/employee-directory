@@ -112,7 +112,7 @@ export default Search;
 ```
 
 ## Deployed Link
-- [See Live Site]()
+- [See Live Site](https://janessaref.github.io/employee-directory/)
 
 ## Author
 
