@@ -2,17 +2,20 @@
 .descend {
     border-radius: 5px;
     padding: 4px;
-    padding-bottom: 0;
-    padding-top: 0;
-    margin-left: 15px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    margin-left: 1px;
+    font-size: medium;
+    font-weight: bold;
+    color: orange;
 }
 
-.employeeName {
-    margin-top: 10px;
-    margin-bottom: 0;
-    margin-right: 200px;
+.ascend {
+    margin-left: 10px;
 }
 
 .tableHeader {
-    padding: 5px;
+    padding: 25px;
+    font-size: 20px;
+    color: orange;
 }

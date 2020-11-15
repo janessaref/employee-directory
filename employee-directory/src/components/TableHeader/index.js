@@ -7,8 +7,8 @@ import  { SORT_EMPLOYEES_ASCEND, SORT_EMPLOYEES_DESCEND }  from "../../utils/Var
 function TableHeader() {
     const { dispatch } = useContext(EmployeeContext);
   return (
-    <thead>
-        <tr className="tableHeader">
+    <thead className="tableHeader">
+        <tr>
             <th scope="col">Image</th>
             <th scope="col" className="employeeName">Name
                 <button 
