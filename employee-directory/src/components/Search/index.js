@@ -33,7 +33,7 @@ function Search() {
     <div className="container">
         <form>
             <div className="form-group text-center">
-                <label for="formGroupExampleInput">Search</label>
+                <label for="formGroupExampleInput" className="searchTitle">Search</label>
                 <input 
                     type="text" 
                     value={search} 
@@ -43,12 +43,14 @@ function Search() {
                     placeholder="Search Employee by Name"
                 />
                 <button 
-                    className="btn btn-dark mr-2 mt-3" 
+                    className="btn btn-dark"
+                    id="searchBtn"
                     onClick={searchEmployees}>
                         Search
                 </button>
                 <button 
-                    className="btn btn-dark ml-2 mt-3" 
+                    className="btn btn-dark" 
+                    id="clearBtn"
                     onClick={clearSearch}>
                         Clear Search
                 </button>
